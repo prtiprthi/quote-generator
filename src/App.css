@@ -61,7 +61,7 @@ p {
 @media (max-width: 480px) {
   #envelope-wrapper {
     width: 460px; /* smaller envelope size */
-    top: 45%;
+    top: 35%;
   }
 
   #envelope-img {
