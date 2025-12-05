@@ -2,6 +2,45 @@ import { useState } from "react";
 
 function useQuoteGenerator() {
   const quotes = [
+    "You make every day brighter just by being you. ☀️",
+    "I believe in you and all that you do. 🌟",
+    "You’re stronger than you think. 💪",
+    "Your kindness inspires everyone around you. 🌸",
+    "Every day with you is a new adventure. ✨",
+    "You make impossible things possible. 🚀",
+    "Your heart is bigger than the universe. ❤️",
+    "I’m so proud of everything you achieve. 🎖️",
+    "You light up every room you enter. 💡",
+    "Keep chasing your dreams — you’re amazing. 🌈",
+    "Your courage amazes me every day. 🦁",
+    "You deserve all the happiness in the world. 🍀",
+    "Your laughter is contagious and magical. 😄",
+    "You are my favorite person in every way. 💕",
+    "You make ordinary moments extraordinary. 🌷",
+    "Believe in yourself as much as I believe in you. 💎",
+    "You’re braver than any challenge that comes your way. ⚡",
+    "Your creativity is beautiful and inspiring. 🎨",
+    "You are my sunshine on cloudy days. 🌞",
+    "Your determination is incredible. 🏆",
+    "You make love feel so easy and beautiful. 💌",
+    "I admire your passion and drive. 🔥",
+    "You’re an amazing person, inside and out. 🌹",
+    "Every little thing you do is impressive. 🌟",
+    "You make my world a better place. 🌍",
+    "Your patience and wisdom amaze me. 🦉",
+    "You have a heart full of gold. 🥇",
+    "Your optimism is truly inspiring. 🌈",
+    "You’re a gift to everyone who knows you. 🎁",
+    "You can handle anything life throws at you. 💪",
+    "Your confidence lights up the room. ✨",
+    "You make me feel loved every single day. 💖",
+    "Your smile can turn any day around. 😄",
+    "You’re my hero in big and small ways. 🦸‍♂️",
+    "Keep shining, because the world needs your light. 🌟",
+  ];
+
+  /*
+  const quotes = [
     "The best way to get started is to quit talking and begin doing. 🌟",
     "Don't let yesterday take up too much of today. 💖",
     "It's not whether you get knocked down, it's whether you get up. 🌸",
@@ -34,11 +73,11 @@ function useQuoteGenerator() {
     "Challenges are what make life interesting; overcoming them is what makes life meaningful. 🌈",
     "Your future is created by what you do today, not tomorrow. 💖",
     "The harder the conflict, the greater the triumph. 🏔️",
-  ];
+  ];*/
 
   const [currentQuote, setCurrentQuote] = useState(
-    "Hi Hari ❤️ <br/>
-    Welcome to Preethi's little quote corner 🎀"
+    /*"Hi Hari ❤️ <br> Welcome to Preethi's little quote corner 🎀"*/
+    "Hi Hari ❤️ Welcome to Preethi's little love notes 💌"
   );
 
   const generateQuote = () => {
