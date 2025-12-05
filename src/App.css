@@ -60,7 +60,7 @@ p {
 /* Mobile Responsive */
 @media (max-width: 480px) {
   #envelope-wrapper {
-    width: 260px; /* smaller envelope size */
+    width: 360px;
     top: 55%;
   }
 
