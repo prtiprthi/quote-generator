@@ -11,7 +11,7 @@ function App() {
 
       <div id="envelope-wrapper">
         <img src={envelope} id="envelope-img" alt="envelope" />
-        <p>{currentQuote}</p>
+        <p dangerouslySetInnerHTML={{ __html: currentQuote }}></p>
         <button id="open-btn" onClick={generateQuote}>
           Generate Quote
         </button>
