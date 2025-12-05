@@ -60,8 +60,8 @@ p {
 /* Mobile Responsive */
 @media (max-width: 480px) {
   #envelope-wrapper {
-    width: 360px;
-    top: 55%;
+    width: 600px;
+    top: 15%;
   }
 
   #envelope-img {
@@ -70,13 +70,15 @@ p {
   }
 
   #envelope-wrapper p {
-    font-size: 14px;
+    font-size: 18px;
     padding: 0 10px;
     line-height: 1.4;
+    width: 90%;
   }
 
   #open-btn {
     padding: 8px 16px;
     font-size: 14px;
+    left: 50%;
   }
 }
