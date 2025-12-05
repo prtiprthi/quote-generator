@@ -71,6 +71,7 @@ p {
 
   #envelope-wrapper p {
     font-size: 14px;
+    font-weight: bold;
     padding: 0 10px;
     line-height: 1.4;
   }
@@ -78,5 +79,6 @@ p {
   #open-btn {
     padding: 8px 16px;
     font-size: 14px;
+    left: 20%;
   }
 }
