@@ -56,3 +56,27 @@ p {
   text-align: center;
   z-index: 25;
 }
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  #envelope-wrapper {
+    width: 260px; /* smaller envelope size */
+    top: 55%;
+  }
+
+  #envelope-img {
+    width: 100%;
+    height: auto;
+  }
+
+  #envelope-wrapper p {
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 1.4;
+  }
+
+  #open-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
