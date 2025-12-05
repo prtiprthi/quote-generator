@@ -37,7 +37,7 @@ function useQuoteGenerator() {
   ];
 
   const [currentQuote, setCurrentQuote] = useState(
-    "Welcome to Preethi's little quote corner 🎀, \n Tap the button below ✨"
+    "Welcome to Preethi's little quote corner 🎀, \nTap the button below ✨"
   );
 
   const generateQuote = () => {
