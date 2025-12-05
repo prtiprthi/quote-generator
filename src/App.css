@@ -65,8 +65,8 @@ p {
   }
 
   #envelope-img {
-    width: 100%;
-    height: auto;
+    height: 500px;
+    width: 500px;
   }
 
   #envelope-wrapper p {
