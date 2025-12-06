@@ -37,15 +37,25 @@ function useQuoteGenerator() {
   ];
 
   const [currentQuote, setCurrentQuote] = useState(
-    "Hi Roshini ❤️, hope this makes u feel a little better 🎀"
+    "Hope this makes u feel a little better 🎀"
   );
 
+  const [fadeClass, setFadeClass] = useState("fade-in");
+
   const generateQuote = () => {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    setCurrentQuote(quotes[randomIndex]);
+    // fade OUT
+    setFadeClass("fade-out");
+
+    setTimeout(() => {
+      const randomIndex = Math.floor(Math.random() * quotes.length);
+      setCurrentQuote(quotes[randomIndex]);
+
+      // fade IN
+      setFadeClass("fade-in");
+    }, 400); // matches CSS transition
   };
 
-  return { currentQuote, generateQuote };
+  return { currentQuote, fadeClass, generateQuote };
 }
 
 export default useQuoteGenerator;

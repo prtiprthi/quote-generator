@@ -4,7 +4,8 @@ import bg4 from "../images/bg4.jpeg";
 import useQuoteGenerator from "./QuoteGenerator";
 
 function App() {
-  const { currentQuote, generateQuote } = useQuoteGenerator();
+  const { currentQuote, fadeClass, generateQuote } = useQuoteGenerator();
+
   return (
     <div id="wrapper">
       <img src={bg4} id="bg-image" alt="background" />
@@ -12,7 +13,7 @@ function App() {
 
       <div id="envelope-wrapper">
         <img src={envelope} id="envelope-img" alt="envelope" />
-        <p>{currentQuote}</p>
+        <p className={fadeClass}>{currentQuote}</p>
         <button id="open-btn" onClick={generateQuote}>
           Generate Quote
         </button>

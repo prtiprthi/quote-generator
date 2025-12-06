@@ -65,6 +65,16 @@ p {
   z-index: 25;
 }
 
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
 /* Mobile Responsive */
 @media (max-width: 480px) {
   #envelope-wrapper {
