@@ -15,9 +15,17 @@
   z-index: -1;
 }
 
+.heading {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 20px;
+  color: rgb(185, 7, 99);
+  font-family: cursive;
+}
+
 #envelope-wrapper {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

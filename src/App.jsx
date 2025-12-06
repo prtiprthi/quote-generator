@@ -8,6 +8,7 @@ function App() {
   return (
     <div id="wrapper">
       <img src={bg4} id="bg-image" alt="background" />
+      <h2 className="heading">Welcome to Preethi’s Little Quote Corner 🎀✨</h2>
 
       <div id="envelope-wrapper">
         <img src={envelope} id="envelope-img" alt="envelope" />
